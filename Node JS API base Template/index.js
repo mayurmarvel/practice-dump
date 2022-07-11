@@ -2,8 +2,6 @@ const express =  require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const helmet = require('helmet');
-const { nextTick } = require('process');
-const { error } = require('console');
 
 const PORT = process.env.PORT || 3000;
 
